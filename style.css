@@ -1,0 +1,50 @@
+*{
+    margin: 10px;
+    padding: 0;
+    background-color: rgb(183, 205, 206);
+}
+.header img{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1rem;
+    width: 5rem;   
+}
+
+.parrafo{
+    font-style: italic;
+}
+
+#Inicio{
+    font-style: italic;
+    border-radius: 8px  ;
+}
+
+#Inicio::before{
+    content: 'Portafolio:';
+    /*content: '👌';*/
+    color: brown;
+}
+
+#Sobremi{
+    color: brown;
+}
+
+#Briefcase{
+    color: chocolate;
+}
+
+#Contacto:hover{
+     color: brown;
+
+/*&:active{
+    transform: scaleX(35);
+}*/
+}
+#Contacto:active{
+    transform: scaleX(35);
+}
+.contenendor-2 .listaEnlaces a{
+    transform: none;
+}
+
